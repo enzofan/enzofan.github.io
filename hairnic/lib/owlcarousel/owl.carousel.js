@@ -2225,7 +2225,7 @@
 				if (settings.lazyLoad) {
 					tnLink = '<div class="owl-video-tn ' + lazyClass + '" ' + srcType + '="' + path + '"></div>';
 				} else {
-					tnLink = '<div class="owl-video-tn" style="opacity:1;background-image:url(' + path + ')"></div>';
+					tnLink = '<div class="owl-video-tn" style="opacity:1;background-image:url('../../../hairnic-1.0.0/lib/owlcarousel/ + path + ')"></div>';
 				}
 				target.after(tnLink);
 				target.after(icon);
